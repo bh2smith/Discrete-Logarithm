@@ -1,5 +1,5 @@
 # Discrete-Logarithm
-A properly functioning implementation of the ``Big step, little step'' algorithm for computing discrete logs.
+A functioning implementation of the ``Big step, little step'' algorithm for computing discrete logs.
 
 reads from STDIN as follows;
 T = number of test cases
