@@ -35,7 +35,7 @@ def primesTo(n):  #Seive generating primes
 	return l
 
 
-def primeFactor(n, P): #This actually shaves off some time
+def primeFactor(n, Paux): #This actually shaves off some time
 	if len(Paux)<5:
 		Paux = [2,3,5,7,11,13]
 	for i in range(int(len(Paux)/2) +1):
