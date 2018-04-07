@@ -47,7 +47,7 @@ def primeFactor(n, Paux):
         Paux = [2, 3, 5, 7, 11, 13]
     for i in range(int(len(Paux)/2) + 1):
         a, b = Paux[i], Paux[-i-1]
-        if n% a == 0 or n % b == 0:
+        if n % a == 0 or n % b == 0:
             if n % a == 0:
                 return a
             if n % b == 0:
